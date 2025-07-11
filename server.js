@@ -36,6 +36,19 @@ app.post('/store_data', (req, res) => {
     });
 });
 
+app.get('/get_data', (req, res) => {
+    const filePath = path.join(__dirname, 'store_data.json');
+
+    fs.readFile(filePath, 'utf-8', (err, data) => {
+        if (err) {
+            console.error('Error reading file:', err);
+            return res.status(500).send('Error reading data');
+        }
+
+        res.type('application/json').send(data);
+    });
+});
+
 app.listen(port, '0.0.0.0',() => {
     console.log(`Server is running at http://localhost:${port}`);
 });
