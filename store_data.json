@@ -1,0 +1,41 @@
+{
+  "stores": [
+    {
+      "ip": "183.82.147.191",
+      "timestamp": "2025-07-11T05:42:48.461Z",
+      "url": "http://localhost:3000/",
+      "protocol": "http:",
+      "host": "localhost:3000",
+      "hostname": "localhost",
+      "port": "3000",
+      "pathname": "/",
+      "search": "",
+      "hash": "",
+      "navigation": {
+        "latitude": 17.402970070749372,
+        "longitude": 78.46591890507445,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+      },
+      "userId": "45207254-c9a9-49ad-8a60-ea47d9aaab7e"
+    },
+    {
+      "ip": "183.82.147.191",
+      "timestamp": "2025-07-11T05:45:12.915Z",
+      "url": "http://localhost:3000/",
+      "protocol": "http:",
+      "host": "localhost:3000",
+      "hostname": "localhost",
+      "port": "3000",
+      "pathname": "/",
+      "search": "",
+      "hash": "",
+      "navigation": {
+        "latitude": 17.40296882214236,
+        "longitude": 78.46592280705738,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"
+      },
+      "userId": "45207254-c9a9-49ad-8a60-ea47d9aaab7e"
+    }
+  ],
+  "lastFetched": "2025-07-11T05:45:15.589Z"
+}
