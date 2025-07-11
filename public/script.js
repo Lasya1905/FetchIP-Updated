@@ -95,7 +95,7 @@ let navigationDetails = () => {
 function sendDetails() {
     localStorage.setItem('user_details', JSON.stringify(user_details));
 
-    fetch('/store_data', {
+    fetch('/get_data', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
