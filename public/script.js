@@ -29,7 +29,7 @@ async function fetchDetails() {
     let details = {};
 
     try {
-        const response = await fetch("https://api.ipify.org");
+        const response = await fetch(process.env.IP_API_URL);
         details.ip = await response.text();
     } catch (error) {
         details.ipError = error.message;
